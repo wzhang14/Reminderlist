@@ -1,0 +1,10 @@
+{% include 'header.html' %}
+
+<h1>{{reminder.title}}</h1>
+<p>{{reminder.text}}</p>
+<br>
+created on {{reminder.created_at}}
+<br><br>
+<a href="/reminders">Go Back</a>
+
+{% include 'footer.html' %}
